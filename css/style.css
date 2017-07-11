@@ -5,11 +5,14 @@ Main color : #19a243 // grean;
 *{
   margin:0;
   padding:0;
+  box-sizing:border-box;
 }
 body{
   background: black;
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 600;
+}
+section{
 }
 .mainColor{
   color:#19a243;
@@ -376,4 +379,184 @@ background: linear-gradient(to bottom, rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%); /* 
   text-align: right;
   padding-right: 20px;
   padding-top:20px;
+}
+
+/*Start Contact Us*/
+
+
+#contactUs{
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+
+}
+
+#contactUs h1 {
+   text-align: center;
+   color: #19a243 ;
+   text-shadow:1px 1px 0 #fff;
+
+}
+
+#contactUs form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+ }
+#contactUs input,#contactUs textarea {
+     border:0;
+     outline:0;
+     padding: 1em;
+     border-radius:8px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     box-shadow:0 1px 1px rgba(0,0,0,0.1);
+     /*opacity: 0.1;*/
+     resize: none;
+     /*background-color: #fff;*/
+}
+#contactUs form :focus {
+       box-shadow:0 0px 2px #19a243 !important;
+}
+
+#input-submit {
+    color: #fff;
+    background-color: #19a243;
+    cursor: pointer;
+
+ }
+#input-submit:hover {
+    box-shadow:0 1px 1px 1px #aaa;
+
+ }
+ #contactUs textarea {
+      height: 153px;
+  }
+
+   #contactUs .half {
+    float: left;
+    width: 48%;
+    margin-bottom: 1em;
+  }
+
+   #contactUs .right { width: 50%; }
+
+   #contactUs .left {
+       margin-right: 2%;
+  }
+
+  @media screen and (max-width: 480px) {
+    #contactUs .half {
+       width: 100%;
+       float: none;
+       margin-bottom: 0;
+
+    }
+  }
+
+/*End Contact Us*/
+
+/*Start google Map*/
+#mapka {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Start footer*/
+#footer {
+    background-color: #191E22;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+#footer span {
+    float: left;
+    font-size: 18px;
+}
+
+#footer ul{
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    float: right;
+}
+#footer ul li {
+     display:inline-block;
+     font-size: 23px;
+     margin-left: 5px
+}
+
+#footer ul li:hover{
+  color: #19a243;
+  transition:color 0.4s;
+}
+/*End footer*/
+
+
+/*End googl Map*/
+/* Clearfix */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* Grid Layout */
+.container{
+    width:1170px;
+    margin:auto;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-1 {
+	width: 8.3333333333%;
+}
+.col-2 {
+	width: 16.666666667%;
+}
+.col-3 {
+	width: 25%;
+}
+.col-4 {
+	width: 33.333333333%;
+}
+.col-5 {
+	width: 41.666666667%;
+}
+.col-6 {
+	width: 50%;
+}
+.col-7 {
+	width: 58.333333333%;
+}
+.col-8 {
+	width: 66.666666667%;
+}
+.col-9 {
+	width: 75%;
+}
+.col-10 {
+	width: 83.333333333%;
+}
+.col-11 {
+	width: 91.666666667%;
+}
+.col-12 {
+	width: 100%;
 }
