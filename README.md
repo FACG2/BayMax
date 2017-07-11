@@ -10,3 +10,5 @@
 * ## WHY are we doing this.
 >“Responsive Web Design always plays important role whenever going to promote your website.”  
 ― Josh Wilson
+
+We are crazy in coding and problem solving and this is one of the main reasons, we have decided to join the coding bootcamp, because we want to put what's in our heads into a set of actions to achieve sensible results of our own ideas and practice coding, to develop a comprehensive understanding of concepts and teamwork and this portfolio website is only the start!
