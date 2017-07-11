@@ -1,6 +1,6 @@
 # BayMax
 *BayMax* team profilo
-![alt](https://github.com/FACG2/BayMax/blob/master/baymax.jpeg?raw=true)
+![alt](https://github.com/FACG2/BayMax/blob/master/big-hero-6.jpg?raw=true)
 
 * ## WHAT is SBayMax website.
 A one page portfolio built to give you an overview about who we are as a team of four cooperative, awesome coding bootcamp student-develop!
