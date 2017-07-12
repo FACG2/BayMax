@@ -356,6 +356,7 @@ section{
 
 #team .card p {
   color: grey;
+  min-height: 42px;
   font-size: 18px
   ;
 }
@@ -397,7 +398,7 @@ section{
   background: #e8e9e9;
   font-family: 'Merriweather', sans-serif;
   padding: 1em;
-  max-height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
