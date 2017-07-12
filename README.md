@@ -41,11 +41,13 @@
 
       **5. Working on the content of the site.**
 
-      **6. Fetching the README file.**
+      **6. Working on Responsive to make our website readability and usability on desktops, tablets and smartphones.**
 
-      **7. Working with github through the building process.**
+      **7. Fetching the README file.**
 
-       **8. Publsihing to github pages.**
+      **8. Working with github through the building process.**
+
+       **9. Publsihing to github pages.**
 
 
     You can visit our site from [here]
