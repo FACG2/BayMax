@@ -17,9 +17,8 @@
 
 
 * ## HOW it all started?
-      **1. Clients stories **
-    
-    [Users stories](https://github.com/gazaskygeeks/bootcamp/blob/master/coursebook/week1/project.md) tell us what needs to be      included in the website and what features/requirements we need to focus on. In the case of this project:
+      **1. Clients stories.**
+  [Users stories](https://github.com/gazaskygeeks/bootcamp/blob/master/coursebook/week1/project.md) tell us what needs to be       included in the website and what features/requirements we need to focus on. In the case of this project:
       * Headline about the team with concise description.
       * Navigation link to sections; About us, Services, Team and Contact us.
       * Form with Name, email address and Message of the inquirer.
@@ -27,8 +26,7 @@
       * Visual impairment compatibility.
       * Old browsers/devices (IE7) compatibility.
 
-      **2. Sketching and wireframing **
-     
+      **2. Sketching and wireframing.** 
      Wireframed as follows:
       * One-page layout.
       * Four main sections; About us, Services, Team and Contact Us.
@@ -48,7 +46,7 @@
 
       **8. Working with github through the building process.**
 
-       **9. Publsihing to github pages.**
+      **9. Publsihing to github pages.**
 
 
     You can visit our site from [here]
