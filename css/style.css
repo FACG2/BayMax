@@ -10,7 +10,8 @@ Main color : #19a243 // grean;
   padding: 0;
   box-sizing: border-box;
 }
-html{
+
+html {
   overflow-x: hidden;
 }
 
@@ -45,7 +46,6 @@ header {
   background-image: url("../images/slider1.jpg");
   /* Set a specific height */
   min-height: 500px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -84,9 +84,11 @@ nav {
   display: inline-block;
   margin-left: 5px;
 }
-.mainNav li a:hover{
-  color:#19a243;
+
+.mainNav li a:hover {
+  color: #19a243;
 }
+
 .mainNav li a {
   padding: 5px
 }
@@ -94,7 +96,7 @@ nav {
 .overLay {
   position: relative;
   height: 100%;
-  min-height:100vh;
+  min-height: 100vh;
   z-index: 10000;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
   /* FF3.6-15 */
@@ -103,7 +105,6 @@ nav {
   background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
-
 
 
 /*Main Slider*/
@@ -151,7 +152,6 @@ nav {
   background: url('../images/about-banner.jpg') no-repeat;
   /* Set a specific height */
   min-height: 500px;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -182,8 +182,7 @@ nav {
 .overLay2 {
   position: relative;
   height: 100%;
-  z-index: 10000
-  min-height:100vh;
+  z-index: 10000 min-height:100vh;
   background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 100%);
@@ -200,7 +199,6 @@ nav {
   /* Set a specific height */
   min-height: 500px;
   height: 100vh;
-  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -289,13 +287,15 @@ nav {
   box-sizing: border-box;
   color: #c9d4c9;
 }
-section{
+
+section {
   overflow: hidden;
   width: 100vw;
 }
+
 .service .caption h3 {
   padding: 5vh 0;
-  color:white;
+  color: white;
 }
 
 .service:hover .caption {
@@ -310,16 +310,15 @@ section{
   clear: both;
   background-color: #e9eaea;
   margin-top: 50px;
-  background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(233,234,234, 1) 100%);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(233, 234, 234, 1) 100%);
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(233,234,234, 1) 100%);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(233, 234, 234, 1) 100%);
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(233,234,234, 1) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(233, 234, 234, 1) 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
 #team .container {
-
   width: 100vw;
   overflow: hidden;
   clear: both;
@@ -357,8 +356,7 @@ section{
 #team .card p {
   color: grey;
   min-height: 42px;
-  font-size: 18px
-  ;
+  font-size: 18px;
 }
 
 #team button {
@@ -372,7 +370,7 @@ section{
   cursor: pointer;
   width: 100%;
   font-size: 18px;
-  margin-bottom:17px;
+  margin-bottom: 17px;
   border-radius: 3px;
 }
 
@@ -392,7 +390,7 @@ section{
 }
 
 
-/*Start Contact Us*/
+/*Contact Us section*/
 
 #contactUs {
   background: #e8e9e9;
@@ -425,9 +423,7 @@ section{
   margin-top: 1em;
   font-family: 'Merriweather', sans-serif;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  /*opacity: 0.1;*/
   resize: none;
-  /*background-color: #fff;*/
 }
 
 #contactUs form :focus {
@@ -461,8 +457,6 @@ section{
 #contactUs .left {
   margin-right: 2%;
 }
-
-
 
 
 /*End Contact Us*/
@@ -530,42 +524,46 @@ section{
 .cf:after {
   clear: both;
 }
+
+
 /* Media queries*/
 
+
 /*Tablet */
-@media screen and (max-width: 768px){
+
+@media screen and (max-width: 768px) {
   #team .card {
     width: 45%;
     margin: 2.5%
   }
-
 }
 
 
 /*Mobile*/
+
 @media screen and (max-width: 480px) {
   #contactUs .half {
     width: 100%;
     float: none;
     margin-bottom: 0;
   }
-  #footer span{
+  #footer span {
     float: none;
     display: block;
     font-size: 16px;
   }
-  #footer ul{
+  #footer ul {
     float: none;
     margin-top: 5px;
   }
 }
-@media screen and (max-width: 500px){
-  .logo{
-      float: none;
-      text-align: center;
-
+/*Navigation bar */
+@media screen and (max-width: 500px) {
+  .logo {
+    float: none;
+    text-align: center;
   }
-  .mainNav{
+  .mainNav {
     float: none;
     margin-top: 8px;
     text-align: center;
