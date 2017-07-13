@@ -50,4 +50,4 @@
        **9. Publsihing to github pages.**
 
 
-    You can visit our site from [here]
+    You can visit our site from [here](https://facg2.github.io/BayMax/)
