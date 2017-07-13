@@ -1,6 +1,6 @@
 /*Add scroll effect to the navigation bar*/
 window.addEventListener('scroll', function(e) {
-  if(window.scrollY != 10){ // scroll spying :3
+  if(window.scrollY >= 100){ // scroll spying :3
     document.getElementsByTagName('nav')[0].classList.add('scrolledNav');
   }else {
     document.getElementsByTagName('nav')[0].classList.remove('scrolledNav');
