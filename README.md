@@ -33,7 +33,7 @@
       * Four main sections; About us, Services, Team and Contact Us.
       * Each section is connected to its menu button in the html code without using JS.
 
-      ![alt](https://github.com/FACG2/BayMax/blob/master/skitch.png?raw=true)
+      ![alt](https://github.com/FACG2/BayMax/blob/master/images/skitch.png?raw=true)
 
       **3. Writing the `HTML` code.**
 
