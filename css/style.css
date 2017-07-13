@@ -237,6 +237,7 @@ nav {
 
 #mobileServ {
   background: url("../images/des3.jpg") no-repeat;
+  background-position: center;
   background-size: cover !important;
 }
 
