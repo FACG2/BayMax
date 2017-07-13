@@ -1,5 +1,5 @@
 # BayMax
-## *BayMax* team profilo
+## *BayMax* team protfilo
 
 
 * ## WHY are we doing this.
