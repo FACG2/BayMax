@@ -1,5 +1,5 @@
 # BayMax
-## *BayMax* team protfilo
+## *BayMax* team portfolio
 
 
 * ## WHY are we doing this.
